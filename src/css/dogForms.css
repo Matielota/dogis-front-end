@@ -1,0 +1,123 @@
+
+
+
+.background2 {
+    background-image: url("https://images8.alphacoders.com/380/380977.jpg");
+    height: 100vh;
+    width: 100% ;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    border: 0;
+    align-items: center;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+.titulo{
+  position: absolute;
+  top: 0px;
+  left: 20px;
+  text-align: justify;
+  font-size: 100px;
+  font-weight:bold;
+}
+
+
+  .volver {
+    margin-right: auto;
+    position: absolute;
+    top: 20px;
+    right: 10ex;
+    width: auto;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 1ex;
+    background-color:transparent;
+    font-weight:bold;
+  }
+
+  .iconocerrar {
+    
+    
+    width: 30px;
+    height: 30px;
+    background-color: transparent;
+    border-color: transparent;
+   
+  }
+
+  .buttoncerrar {
+    
+    height: auto;
+    width: auto;
+    cursor: pointer;
+    font-size: 25px;
+    border-radius: 1ex;
+    background-color:transparent;
+    font-weight:bold;
+  }
+
+  .form-container{
+    position: absolute;
+    left: 100px;
+    outline: thick double black;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: auto;
+  
+  }
+
+  .inputCreate{
+    position: relative;
+    width: 700px;
+    display: grid;
+    grid-template-columns: 300px 1fr;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+  }
+.labeltxt{
+  width:300px;
+  text-align: center;
+  font-size: 25px;
+  font-weight:bold;
+  color: rgb(0, 0, 0);
+}
+.inputBuscar{
+  width: 400px;
+  border: none;
+  border-bottom: 2px solid;
+
+}
+.error{
+  width: 600px;
+
+}
+
+.button-create{
+  margin: auto;
+  list-style: none;
+}
+
+.inputCreate input + span::after , .form-input-group select + span::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  position: absolute;
+  background-color: #f50057;
+  bottom: 5px;
+  left: 0;
+  transition: all 0.3s linear;
+}
+.inputCreate input:focus + span::after{
+  width: 100%;
+}
+.inputCreate select:focus + span::after{
+  width: 100%;
+}

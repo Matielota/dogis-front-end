@@ -1,0 +1,40 @@
+.card {
+    
+    border-radius: 18px;
+    box-shadow: 10px 10px 5px 5px rgba(26, 19, 19, 0.418);
+    overflow: hidden;
+    height: 500px;
+    width: 430px;
+    border-color: black;
+  }
+.card:hover {
+    
+    transform: scale(1.2)
+}
+
+.cards_item {
+    display: flex;
+    padding: 20px;
+    background-color: transparent;
+    border-color: transparent;
+  }
+a:link,
+a:visited,
+a:active {
+    text-decoration: none;
+}
+.nombre {
+    color: #ffffff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+  }
+
+.imagen{
+  width: 200px;
+  height: 250px;
+  border-color: black;
+  border-width: 100px;
+  border-right: 200px;
+}

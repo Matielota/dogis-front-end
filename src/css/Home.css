@@ -1,0 +1,142 @@
+.card_contenedor {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-decoration: none;
+    float: left;
+  }
+
+.fondo {
+    background: url("https://images8.alphacoders.com/380/380977.jpg");
+    background-size: cover;
+    width: 100%;
+    height: fit-content;
+    position: absolute;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    border: 0;
+  }
+.icono {
+  background-color: transparent;
+    margin-top: 2ex;
+    margin-left: 2ex;
+    width: 80px;
+    height: 80px;
+}
+.icons {
+    display: flex;
+    bottom: auto;
+    /* margin-top: 1%;
+    margin-left: 1%; */
+    cursor: pointer;
+}
+
+.select {
+  margin: 5px 50px;
+  font-weight:bold;
+  border-radius: 1ex;
+  margin-inline-start: 1ex;
+  color: rgb(0, 0, 0);
+  background-color: transparent;
+  cursor: pointer;
+  width: 20ex;
+  height: 4ex;
+  text-align: left;
+}
+
+.button-back {
+  margin-top: 50px;
+  margin-right: 30ex;
+  right: 10ex;
+  width: auto;
+  cursor: pointer;
+  font-size: 25px;
+  border-radius: 1ex;
+  background-color:transparent;
+  font-weight:bold;
+}
+.button-front {
+  margin-top: 50px;
+  border-radius: 1ex;
+  top: 3.3ex;
+  right: 10ex;
+  width: auto;
+  cursor: pointer;
+  font-size: 25px;
+  font-weight:bold;
+  background-color:transparent;
+}
+
+.button2:hover 
+{
+    transition-delay: 0s;
+    color: rgb(44, 1, 41);
+    box-shadow: 0 0 20px rgb(44, 1, 41),
+                0 0 40px rgb(44, 1, 41),
+                0 0 80px rgb(44, 1, 41),
+                0 0 160px rgba(13, 153, 0, 0.068);                 
+}
+.button3:hover {
+    transition-delay: 0s;
+    color: rgb(44, 1, 41);
+    box-shadow: 0 0 20px rgb(44, 1, 41),
+                0 0 40px rgb(44, 1, 41),
+                0 0 80px rgb(44, 1, 41),
+                0 0 160px rgba(13, 153, 0, 0.068);                 
+}
+.labeltext{
+  font-weight:bold
+}
+.title{
+  margin: auto;
+  font-weight:bold;
+  font-size: 100px;
+  color:rgb(199, 171, 10);
+  height: 0ex;
+  text-align: center;
+}
+
+.buttonRefresh {
+  margin: 50px 50px;
+  float: right;
+  right: 15ex;
+  width: 18ex;
+  cursor: pointer;
+  font-size: 15px;
+  border-radius: 1ex;
+  background-color:transparent;
+  font-weight:bold;
+  border-color: black;
+  
+}
+.buttonDog{
+  margin: 50px 50px;
+  float: left;
+  right: 10ex;
+  width: 13ex;
+  cursor: pointer;
+  font-size: 10px;
+  border-radius: 1ex;
+  background-color:transparent;
+  font-weight:bold;
+  border-color: black;
+}
+.search{
+  margin: 50px 50px;
+  float: right;
+}
+
+.icono2{
+    align-items: center;
+    position: relative;
+    margin-top:  2ex;
+    margin-left: 1ex;
+    width: 50px;
+    height: 50px;
+    align-items: flex-start;
+}
+.icono2:hover{
+  transition-delay: 0s;
+  transform: scale(1.8);
+}

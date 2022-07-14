@@ -1,0 +1,42 @@
+.icono5{
+    align-items: center;
+    position: relative;
+    margin-top:  2ex;
+    margin-left: 1ex;
+    width: 25px;
+    height: 25px;
+    align-items: flex-start;
+    background-color: transparent;
+}
+.icono2:hover{
+  transition-delay: 0s;
+  transform: scale(1.8);
+}
+
+.inputBuscar {
+    
+    float: none;
+    right: 15ex;
+    width: 50ex;
+    height: 4ex;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 1ex;
+    background-color:transparent;
+    font-weight:bold;
+    border-color: black;
+    
+  }
+
+  .buttonBuscar {
+    align-items: center;
+    width: 7ex;
+    height: 6ex;
+    cursor: pointer;
+    font-size: 15px;
+    border-radius: 1ex;
+    background-color:transparent;
+    font-weight:bold;
+    border-color: transparent;
+    
+  }

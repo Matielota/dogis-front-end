@@ -1,0 +1,33 @@
+function handleSubmit(e) {
+    e.preventDefault();
+    if (!input.name.trim()) {
+      return alert("Need to put a name");
+    } else if (
+      alldogs.find(
+        (e) => e.name.toLowerCase().trim() === input.name.toLowerCase().trim()
+      )
+    ) {
+      return alert(`The name ${input.name} already exist`);
+    } else if (input.height.trim() === "") {
+      return alert("Height required");
+    } else if (input.weight.trim() === "") {
+      return alert("Weight required");
+    } else if (input.life_span .trim() === "") {
+      return alert("Life span is required");
+    } else if (input.temperament.length === 0) {
+      return alert("Select one or more genres");
+    }  else {
+      dispatch(postDog(input));
+      alert("Dog created!!! 😀 ");
+      setInput({
+        name:"",
+        height:"",
+        weight:"",
+        life_span:"",
+        image:"",
+        temperament:[],
+      });
+      document.getElementById("formulario").reset();
+      window.location.reload();
+    }
+  } 

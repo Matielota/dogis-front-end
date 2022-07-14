@@ -1,0 +1,75 @@
+*{
+    box-sizing: border-box;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-decoration: none;
+}
+
+.background {
+    background: url("https://fondosmil.com/fondo/6657.jpg");
+    background-size: cover;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    border: 0;
+    font-size: 30px;
+}
+
+.welcomeText{
+    
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 40px;
+    top: 35%;
+    color: rgb(0, 0, 0);
+    text-shadow: 2px 2px 4px #000000;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+.buttoningreso{
+    margin-left: 150px ;
+    margin-top: -250px;
+    float: left;
+    right: 10ex;
+    height: 450px;
+    width:  350px;
+    cursor: pointer;
+    font-size: 10px;
+    border-radius: 1ex;
+    background-color:transparent;
+    font-weight:bold;
+    border-color: transparent;
+    font-size: 50px;
+  }
+
+.iconoingreso{
+    align-items: center;
+    position: relative;
+    margin-top: none;
+    margin-left: 1ex;
+    width: 300px;
+    height: 250px;
+    align-items: flex-start;
+}
+
+.iconoingreso:hover{
+    transition-delay: 0s;
+    transform: scale(1.3);
+}
+
+.button:hover 
+{
+    transition-delay: 0s;
+    color: rgb(255, 0, 234);
+    box-shadow: 0 0 20px rgb(255, 0, 234),
+                0 0 40px rgb(255, 0, 234),
+                0 0 80px rgb(255, 0, 234),
+                0 0 160px rgba(13, 153, 0, 0.068);          
+                
+}
+
+.textingreso{
+    font-size: 1000px;
+}

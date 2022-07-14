@@ -1,0 +1,31 @@
+.imagen2{
+        background-color: transparent;
+        margin: auto;
+        border-radius: 18px;
+        box-shadow: 20px 20px 10px 10px rgba(26, 19, 19, 0.418);
+        overflow: hidden;
+        height:900px;
+        width:700px;
+        border-color: black;
+      }
+
+
+      .imagen3{
+  
+    
+        
+        height: 550px;
+        width: 450px;
+        border-color: black;
+      }
+.fondoimagen{
+    background-image: url("https://w0.peakpx.com/wallpaper/599/154/HD-wallpaper-welsh-corgi-puppy-bubbles-dogs.jpg");
+    height: 100%;
+    width: 100% ;
+    position: absolute;
+    display: block;
+    justify-content:center;
+    align-items: center;
+    border: 0;
+    align-items: center;
+}
